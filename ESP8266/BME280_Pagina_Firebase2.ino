@@ -31,8 +31,8 @@ U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SD
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "Mastero Wifi"
-#define WIFI_PASSWORD "mastero101"
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "password"
 
 int a=0; //variable of value of analog read pin
 char t[4];//variable to send text to the oled display   
@@ -45,14 +45,14 @@ int tf=0;
 int hic=0;
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyBp7UGCt31inIEFavIztAKZ0ZDM7pC2vcc"
+#define API_KEY "APIKey"
 
 // Insert Authorized Email and Corresponding Password
 #define USER_EMAIL "1234@gmail.com"
 #define USER_PASSWORD "123456"
 
 // Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://bme280-e3ead-default-rtdb.firebaseio.com/"
+#define DATABASE_URL "firebaseio.com/"
 
 // Define Firebase objects
 FirebaseData fbdo;
